@@ -1,4 +1,6 @@
 class Foobar
+  attr_accessor :var
+
   def initialize(baz)
     @var = baz
   end
